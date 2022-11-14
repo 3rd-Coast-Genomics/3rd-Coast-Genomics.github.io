@@ -770,6 +770,11 @@ section {
   font-size: 26px;
 }
 
+.about .img-container {
+  display: flex;
+  align-items: center;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -778,11 +783,11 @@ section {
 .about .content ul li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .about .content ul li:first-child {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .about .content ul i {
@@ -1620,7 +1625,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #106eea;
   border: 0;
   padding: 10px 30px;
@@ -1629,7 +1634,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #3b8af2;
 }
 
@@ -1689,13 +1694,13 @@ section {
   text-align: left;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1711,7 +1716,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter form input[type="submit"]:hover {
   background: #0d58ba;
 }
 
