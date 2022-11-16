@@ -1669,6 +1669,11 @@ section {
   background: #f1f6fe;
 }
 
+#footer.white-bg,
+#footer.white-bg * {
+  background-color: #fff !important;
+}
+
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #f1f6fe;
