@@ -183,17 +183,31 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#header .logo img {
+  height: 100%;
+  margin-right: 10px
 }
 
 #header .logo a {
   color: #222222;
+}
+
+#header .logo div {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .logo p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 #header .logo a span {
